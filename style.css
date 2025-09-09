@@ -1,4 +1,35 @@
-.recipe-links {
-    font-size: 240px;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: rgb(133, 163, 134);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.recipe {
+    padding: 10px;
+    list-style-type: "=>";
+    margin-left: 40px;
+}
+
+.recipe-links a:link{
+    font-size: 24px;
     color: black;
+    text-decoration: none;
+}
+
+.recipe-links a:visited{
+    font-size: 24px;
+    color: rgb(105, 122, 146);
+    text-decoration: none;
+}
+
+.recipe-links a:hover {
+  color: rgb(105, 122, 146);
+  text-decoration: none;
 }

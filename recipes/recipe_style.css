@@ -1,0 +1,12 @@
+h1 {
+    background-color: rgb(133, 163, 134);
+}
+
+.home-button as{
+    display: inline;
+    color: black;
+    padding: 5px 10px;   
+    border: 1px solid black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
